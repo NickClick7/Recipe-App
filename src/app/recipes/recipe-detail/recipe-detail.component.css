@@ -1,0 +1,10 @@
+.detail-container {
+  position: relative;
+  border: 1px solid rgb(109, 136, 104);
+  padding: 20px;
+  margin-top: 70px;
+}
+
+img {
+  width: 100%;
+}
