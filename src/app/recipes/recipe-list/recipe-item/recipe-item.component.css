@@ -2,8 +2,7 @@ a {
   cursor: pointer;
 }
 
-a:hover {
-  background-color: rgb(239, 241, 236);
+li:hover {
   border: 1px solid rgb(109, 136, 104);
 }
 

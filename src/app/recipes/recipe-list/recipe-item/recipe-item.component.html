@@ -1,7 +1,8 @@
-<a
-  class="card mb-3"
+<li
+  class="card mb-3 list-group-item"
   style="max-width: 540px;"
-  (click)="onSelected()">
+  routerLinkActive="active"
+  [routerLink]="[index]">
   <div class="row no-gutters">
     <div class="col-md-8">
       <div class="card-body">
@@ -20,4 +21,4 @@
       </div>
     </div>
   </div>
-</a>
+</li>
