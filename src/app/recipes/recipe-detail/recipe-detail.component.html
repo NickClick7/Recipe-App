@@ -12,13 +12,19 @@
           <div
             class="dropdown-menu"
             aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">To Shopping List</a>
-            <a class="dropdown-item" href="#">Edit Recipe</a>
-            <a class="dropdown-item" href="#">Delete Recipe</a>
+            <a class="dropdown-item" (click)="onAddToShoppingList()">To Shopping List</a>
+            <a class="dropdown-item">Edit Recipe</a>
+            <a class="dropdown-item">Delete Recipe</a>
           </div>
         </div>
         {{ recipe.description }}
-        <p>Ingredients</p>
+        <ul class="list-group">
+          <li
+            class="list-group-item"
+            *ngFor="let ingredient of recipe.ingredients">
+            {{ ingredient.name }} - {{ ingredient.amount }}
+          </li>
+        </ul>
     </div>
   </div>
 </div>
