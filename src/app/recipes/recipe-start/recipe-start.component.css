@@ -1,0 +1,15 @@
+.no-image-container {
+  position: relative;
+  border: 1px solid rgb(109, 136, 104);
+  padding: 50px;
+  margin-top: 70px;
+}
+
+img {
+  width: 100%;
+}
+
+h3 {
+  color: #686868;
+  text-align: center;
+}
